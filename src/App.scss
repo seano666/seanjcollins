@@ -1,3 +1,9 @@
+$bright-turquoise: #0ce5e1;
+$light-cyan: #50b6bb;
+$deep-cyan: #45969b;
+$light-grey: #f2eaec;
+$vivid-red: #ff0340;
+
 .App {
   text-align: center;
 }
@@ -14,14 +20,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: $light-grey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: $bright-turquoise;
+  border: 2px solid $vivid-red;
 }
 
 .App-link {

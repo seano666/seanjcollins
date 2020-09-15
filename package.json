@@ -9,7 +9,10 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "anix": "^0.3.3",
+    "jquery": "^3.2.1",
+    "particles-bg": "^2.3.12"
   },
   "scripts": {
     "start": "react-scripts start",

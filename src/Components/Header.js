@@ -7,6 +7,7 @@ const Header = ({ data }) => {
     var github = data.github;
     var description = data.description;
     var title = data.title;
+    var stackoverflow = data.stackoverflow;
   }
 
   return (
@@ -64,6 +65,13 @@ const Header = ({ data }) => {
             </a>
             <a href={github} className="button btn github-btn" target="_blank">
               <i className="fa fa-github"></i>Github
+            </a>
+            <a
+              href={stackoverflow}
+              className="button btn so-btn"
+              target="_blank"
+            >
+              <i className="fa fa-stack-overflow"></i>StackOverflow
             </a>
           </ul>
         </div>

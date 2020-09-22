@@ -3,20 +3,10 @@ import ParticlesBg from "particles-bg";
 
 const Header = ({ data }) => {
   if (data) {
-    var project = data.project;
+    var linkedin = data.linkedin;
     var github = data.github;
-    var name = data.name;
     var description = data.description;
-    //  var city = data.address.city;
-    //  var networks = data.social.map(function (network) {
-    //    return (
-    //      <li key={network.name}>
-    //        <a href={network.url}>
-    //          <i className={network.className}></i>
-    //        </a>
-    //      </li>
-    //    );
-    //  });
+    var title = data.title;
   }
 
   return (
@@ -61,14 +51,18 @@ const Header = ({ data }) => {
 
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">{name}</h1>
+          <h1 className="responsive-headline">{title}</h1>
           <h3>{description}.</h3>
           <hr />
           <ul className="social">
-            <a href={project} className="button btn project-btn">
-              <i className="fa fa-book"></i>Project
+            <a
+              href={linkedin}
+              className="button btn project-btn"
+              target="_blank"
+            >
+              <i className="fa fa-linkedin"></i>LinkedIn
             </a>
-            <a href={github} className="button btn github-btn">
+            <a href={github} className="button btn github-btn" target="_blank">
               <i className="fa fa-github"></i>Github
             </a>
           </ul>

@@ -1,14 +1,15 @@
 {
   "main": {
-    "name": "I'm Sean Collins",
+    "title": "I'm Sean Collins",
+    "name": "Sean Collins",
     "description": "I'm a full-stack web developer who loves to learn new things.  I know something about almost everything, but specialize in C#/.Net, SQL, AWS Cloud technologies, and JavaScript frameworks such as React and Angular",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio": "I love working with people and technology!  And in my spare time I also enjoy jogging, biking, cars, gaming, and spending time with my wife and 2 year old son.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "seanjcollins@gmail.com",
     "phone": "",
     "github": "https://github.com/seano666",
-    "project": "https://github.com/seano666",
+    "linkedin": "https://www.linkedin.com/in/sean-collins-39106830",
     "address": {
       "street": "",
       "city": "Beaverton",
@@ -49,16 +50,10 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Portland State University",
+        "degree": "BA - Psychology",
+        "graduated": "August 2007",
+        "description": "Although I've always been interested in technology, I really enjoyed majoring in Social Sciences at PSU.  It's fascinating to me the different ways people interact with technology, often in unique and unexpected ways!   I also enjoyed learning Japanese, and spending some time tutoring and interacting with international students."
       }
     ],
     "work": [

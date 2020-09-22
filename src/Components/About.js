@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const About = ({ data }) => {
   if (data) {
@@ -11,8 +11,13 @@ const About = ({ data }) => {
     var zip = data.address.zip;
     var phone = data.phone;
     var email = data.email;
-    var resumeDownload = data.resumedownload;
   }
+
+  const [buttonText, setButtonText] = useState("Click Me!");
+
+  const handleClick = (e) => {
+    setButtonText("Thanks!");
+  };
 
   return (
     <section id="about">
@@ -44,9 +49,10 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
-                </a>
+                <button className="button" onClick={handleClick}>
+                  <i className="fa fa-download"></i>
+                  {buttonText}
+                </button>
               </p>
             </div>
           </div>
